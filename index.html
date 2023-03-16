@@ -1,12 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/a402cab63b.js" crossorigin="anonymous"></script>
+
     <title>Document</title>
 </head>
+
 <body>
     <h1>Привіт guys!</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Instrument</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Name1</th>
+                <th>Instrument1</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>John Lennon</td>
+                <td>Rhythm Guitar</td>
+            </tr>
+            <tr>
+                <td>Paul McCartney</td>
+                <td>Bass</td>
+            </tr>
+            <tr>
+                <td>George Harrison</td>
+                <td>Lead Guitar</td>
+            </tr>
+            <tr>
+                <td>Ringo Starr</td>
+                <td>Drums</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h2>Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Onsday</th>
+                <th>Torsday</th>
+                <th>Friday</th>
+            </tr>
+        <tfoot>
+            <tr>
+                <th>Tot:</th>
+                <th>Tot:</th>
+                <th>Tot:</th>
+                <th>Tot:</th>
+                <th>Tot:</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Matematik</td>
+                <td>Matematik</td>
+                <td>Matematik</td>
+                <td>Matematik</td>
+                <td>Matematik</td>
+            </tr>
+            <tr>
+                <td>Læsning</td>
+                <td>Læsning</td>
+                <td>Læsning</td>
+                <td>Læsning</td>
+                <td>Læsning</td>
+            </tr>
+        </tbody>
+        </thead>
+    </table>
+
+    <h3>World Cup winners</h3>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">World Cup winners</th>
+            </tr>
+            <td colspan="2">Location</td>
+            <td colspan="2">Score</td>
+            <tr>
+                <td>Continent</td>
+                <td>Country</td>
+                <td>First</td>
+                <td>Title</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Sousth America</td>
+                <td>Uruguay</td>
+                <td>1930</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Brazil</td>
+                <td>1958</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Ardentina</td>
+                <td>1978</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Europa</td>
+                <td>Italy</td>
+                <td>1934</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Germany</td>
+                <td>1954</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>England</td>
+                <td>1966</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>France</td>
+                <td>1998</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Spain</td>
+                <td>2010</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>
+        <a href="squoosh.app">Squoosh</a> - сервіс <em>оптимизації</em> зображень.
+    </p>
+
+    <p>Переваги</p>
+    <ul>
+        <li>Працює в браузері</li>
+        <li>Не навантажує систему</li>
+        <li>Зручний інтерфейс</li>
+    </ul>
+
+    <!-- Не дотримується порядок закриття тегів -->
+    <p><a href="squoosh.app">Squoosh</a> - сервіс <em></a>оптимизації</p> зображень.</em>
+
+    <!-- Не дотримуються специфічні правила вкладення тегів -->
+    <ul>
+        <p>Переваги</p>
+        <li>Працює в браузері</li>
+        <li>Не навантажує систему</li>
+        <li>Зручний інтерфейс</li>
+    </ul>
+
+
+    <!-- Абзац - це блоковий елемент -->
+    <p>Блоковий елемент 1</p>
+    <p>Блоковий елемент 2</p>
+    <p>Блоковий елемент 3</p>
+
+    <!-- Посилання - це рядковий елемент -->
+    <a href="">Рядковий елемент 1</a>
+    <a href="">Рядковий елемент 2</a>
+    <a href="">Рядковий елемент 3</a>
+
+    <figure>
+        <!-- Довільний графічний контент: фотографія, графік, діаграма тощо -->
+        <img src="адреса зображення" alt="альтернативний текст" />
+        <figcaption>Текст пояснення, який буде під зображенням</figcaption>
+    </figure>
+
+    <h2>Hej</h2>
+
+    <h1 class="title">Iste odit similique sit</h1>
+    <p class="text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati commodi,
+        <span>veritatis nihil alias iste</span> odit similique sit eius optio veniam,
+        impedit cumque fuga facere labore quo id necessitatibus quaerat rerum.
+    </p>
+    <a href="" class="link">Читати далі...</a>
+    <p>Останні новини на <time datetime="2019-12-14">14 грудня 2019 року</time>.</p>
+
+    <p>
+        Засідання відбулося об <time datetime="2018-07-14T11:30">11:30 ранку</time>.
+    </p>
+
+
+    <div>
+        <i class="fa-solid fa-map-location-dot"></i><address>Kærmindevej</address>
+        
+    </div>
 </body>
+
+
 </html>
